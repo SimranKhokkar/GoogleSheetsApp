@@ -1,0 +1,36 @@
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <div id="modalForm">
+  <form class="modal-content" id="linkform">
+    <div class="container">
+      <h1>Get Data from Sheets</h1>
+      <p>Please enter the details to view the sheet data</p>
+      <hr>
+	  <label name="link"><b>Link for the sheet:</b></label><font color="red">*</font>
+      <input type="text" placeholder="Enter link for the sheet" name="link" required>
+
+      <label name="sheetName"><b>Name of the sheet:</b></label><font color="red">*</font>
+      <input type="text" placeholder="Enter name of the sheet" name="sheetName" required>
+
+      <label name="column"><b>Column Name for Sum:</b></label>
+      <input type="text" id="columnName" placeholder="Enter column name for sum" name="column">
+
+      <label id="formError" class="error" for="error"></label>
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button id="getData" class="signupbtn">View Data</button>
+      </div>
+    </div>
+  </form></div>
+  <div id="showData">
+    <table id="sheetData" class="data" cellspacing = "0px" cellpadding = "20px" text-align = "center">
+    <thead>  </thead>
+    <tbody></tbody>
+      </table>
+      <center><label id="sum" hidden class="data"></label></center>
+      <center><label id="average" hidden class="data"></label></center>
+  </div>
+
+</div>
+
+<script src="../js/sheets.js"></script>
