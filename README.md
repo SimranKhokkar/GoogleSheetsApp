@@ -1,5 +1,5 @@
 # GoogleSheetsApp
-Data from any google sheet can be converted and seen in a table format
+Data from any google sheet can be converted and viewed in a table format.
 Any google sheet link passed to the application along with the sheet name from which data has to be displayed in table format would be converted to table format and shown on the screen.
 Column name can be added to get a sum of the values in a column with numeric values.
 
