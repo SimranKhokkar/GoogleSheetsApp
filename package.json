@@ -12,7 +12,7 @@
     "body-parser": "^1.20.1",
     "express": "^4.17.3",
     "express-handlebars": "^5.3.1",
-    "google-spreadsheet": "^3.0.10",
+    "google-spreadsheet": "^4.1.1",
     "googleapis": "^61.0.0"
   }
 }
